@@ -1,0 +1,16 @@
+Проверить, что для разных id пользователя метод вернет либо 400 ошибку, либо для каждого клиента вернет соответствующее значение, в зависимости от требования. 
+
+### Case_1
+Request: /client_1/purchase
+Body: 1000
+Response: Count:1
+
+### Case_2
+Request: /client_2/purchase
+Body: 2000
+Response: Count:2
+
+### Case_3
+Request: /client_1/purchase
+Body: 1000
+Response: Count:2
