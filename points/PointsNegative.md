@@ -15,6 +15,9 @@ Response: 400 Ошибка, с сообщением "Не найден клие�
 
 Request: GET /api/customer/{example}/points
 где example:
+
           - null
+          
           - abc
+          
           - !223
