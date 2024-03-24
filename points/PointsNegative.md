@@ -10,3 +10,11 @@ GET /api/customer/{customer_id}/points
 Request: GET /api/customer/client_3/points
 
 Response: 400 Ошибка, с сообщением "Не найден клиент"
+
+* [x] **Case_2**
+
+Request: GET /api/customer/{example}/points
+где example:
+          - null
+          - abc
+          - !223
